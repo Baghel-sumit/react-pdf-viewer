@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import PdfOne from './pdf-viewers/pdf-one';
+import PdfThree from './pdf-viewers/pdf-three';
+import PdfTwo from './pdf-viewers/pdf-two';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Pdf viewer</h1>
+      {/* <PdfOne/> */}
+      {/* <PdfTwo/> */}
+      <PdfThree/>
     </div>
   );
 }
